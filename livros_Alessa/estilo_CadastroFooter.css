@@ -1,0 +1,52 @@
+
+body {
+  
+    margin: 0;
+    padding: 0;
+  }
+
+  
+  
+  footer {
+    background-color: #AE794D;
+    color: #EEEBE8;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .opening-hours, .contacts {
+    text-align: center;
+  }
+  
+  .opening-hours h3, .contacts h3 {
+    font-size: 18px;
+  }
+  
+  .opening-hours ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .opening-hours li {
+    margin-bottom: 10px;
+  }
+  
+  .contacts p {
+    margin: 5px 0;
+  }
+  
+  .contacts p:first-child {
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+  
+    .opening-hours, .contacts {
+        margin-bottom: 20px;
+    }
+  }
